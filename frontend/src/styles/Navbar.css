@@ -1,0 +1,114 @@
+/* Estilos globales para el Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo del logo */
+  .navbar-logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navbar-logo .logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  /* Estilo de los enlaces del Navbar */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links li a:hover {
+    color: #007bff;
+  }
+  
+  /* Estilo de los botones del Navbar */
+  .navbar-auth .btn {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* Botones primarios, secundarios y de peligro */
+  .btn-primary {
+    color:#000000;
+    font-size: 1.3rem;
+    background: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .btn-primary:hover {
+    background: #0056b3;
+    color: #ffffff;
+  }
+  
+  .btn-secondary {
+    background: #6c757d;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background: #5a6268;
+  }
+  
+  .btn-danger {
+    background: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+  }
+  
+  .btn-danger:hover {
+    background: #c82333;
+    color: rgb(255, 255, 255);
+  }
+
+.navbar-auth{
+  margin-right: 3%;
+}
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .navbar-auth {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  
