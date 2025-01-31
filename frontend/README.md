@@ -78,7 +78,7 @@ npm run dev
 
 ## Uso
 
-- Accede a `https://eventos-ya-7maf.vercel.app/events` para ver la aplicación en el navegador.
+- Accede a `https://eventos-ya-7maf.vercel.app` para ver la aplicación en el navegador.
 - Regístrate o inicia sesión para gestionar eventos.
 - Explora los eventos creados por otros usuarios.
 
