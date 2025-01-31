@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // URL base de la API
-const API_URL = 'http://localhost:5001'; // Actualiza la URL base
+const API_URL = 'https://eventosya.onrender.com'; // Actualiza la URL base
 
 // Función para registrar un nuevo usuario
 export const registerUser = (user) => axios.post(`${API_URL}/auth/register`, user);

@@ -3,8 +3,6 @@ const jwt = require('jsonwebtoken');
 const User = require('../models/user');  // Asegurar que el nombre coincide con el archivo
 const config = require('../config');
 
-const router = express.Router();
-
 // Función para registrar usuario
 const register = async (req, res) => {
   try {
